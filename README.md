@@ -41,18 +41,18 @@ The DHT11 sensor collects real-time temperature and humidity data and sends it t
   
 ## Snaps of the Project
 <p align=center>
-  <img src="Resources/DHT11_STM32.jpeg">
+  <img src="DHT11_STM32.jpeg">
   <p align=center>Live Expressions</p>
 </p>
 
 <p align=center>
-  <img src="Resources/DHT11_Nextion.jpeg">
+  <img src="DHT11_Nextion.jpeg">
   <p align=center>Nextion Stimulation</p>
 </p>
 
 <p align=center>
 <video width="700" controls>
-  <source src="Resources/DHT11_Video.mp4" type="video/mp4">
+  <source src="DHT11_Video.mp4" type="video/mp4">
 </video>
   <p align=center>Live Nextion Stimulation</p>
 </p>
