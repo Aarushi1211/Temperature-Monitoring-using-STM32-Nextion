@@ -45,20 +45,7 @@ The TCRT IR sensor continuously detects the presence or absence of a vehicle by 
 * Debugging using ST-Link programmer
 * Serial communication using CH340G USB-to-TTL module
 
-## Snaps of the Project
-
-<p align=center>
-  <img src="Parking_Sensor_Setup.jpeg">
-  <p align=center>Hardware Setup</p>
-</p>
-
-<p align=center>
-  <img src="Parking_Detection_Output.jpeg">
-  <p align=center>Vehicle Detection Output</p>
-</p>
-
-## Live Parking Detection Demonstration
-## Snaps of the Project
+  ## Snaps of the Project
 
 <p align="center">
   <img src="Parking_Sensor_Setup.jpeg" width="700">
@@ -88,6 +75,8 @@ The TCRT IR sensor continuously detects the presence or absence of a vehicle by 
 
 <p align="center">
   Click the image above to watch the demo video
+</p>
+
 </p>
 
 
