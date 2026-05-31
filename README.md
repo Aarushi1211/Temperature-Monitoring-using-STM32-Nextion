@@ -1,83 +1,63 @@
-# Smart-Car-Parking-Detection-System-using-STM32F103C8T6
-
+# Temperature-Monitoring-using-STM32-Nextion
 ## Introduction
 
-This project is a Smart Car Parking Detection System developed using the STM32F103C8T6 microcontroller and TCRT single-channel IR line sensor. The system detects the presence of vehicles in parking slots and provides real-time parking occupancy monitoring. The project demonstrates sensor interfacing, embedded programming, and real-time detection using STM32.
+This project is a real-time Temperature and Humidity Monitoring System developed using the STM32F103C8T6 microcontroller, DHT11 sensor, and Nextion. The system measures environmental conditions and displays temperature in both Celsius and Fahrenheit along with humidity values on the Nextion display.
 
 ## Components
 
 * STM32F103C8T6 (Blue Pill)
-* TCRT Single Channel IR Line Sensor
-* CH340G USB-to-TTL Converter
-* ST-Link Debugger/Programmer
+* DHT11 Temperature & Humidity Sensor
+* Nextion HMI Display
 * Jumper Wires
-* Breadboard / PCB
 
 ## Method
 
-The TCRT IR sensor continuously detects the presence or absence of a vehicle by sensing reflected infrared light. The sensor output is read by the STM32F103C8T6 microcontroller, which processes the detection signal in real time. The system can be used to indicate parking slot occupancy and can be further extended for smart parking management applications.
+The DHT11 sensor collects real-time temperature and humidity data and sends it to the STM32 microcontroller. The STM32 processes the sensor data and communicates with the Nextion display through UART communication. The output values are continuously updated and displayed on the HMI screen.
 
 ## Technologies Used
 
 * Embedded C
-* STM32 Microcontroller Programming
-* Sensor Interfacing
-* GPIO Programming
+* STM32 Microcontroller
 * UART Communication
-* STM32CubeIDE 
+* Nextion GUI Development
+* Sensor Interfacing
 
 ## Applications
 
-* Smart Parking Systems
-* Vehicle Detection Systems
-* Automated Parking Management
-* Parking Slot Occupancy Monitoring
-* Smart City Applications
-* Embedded Sensor-Based Systems
+* Smart Home Monitoring
+* Environmental Monitoring
+* Weather Monitoring Systems
+* Industrial Automation
+* IoT-based Monitoring Systems
 
 ## The Project Involved
 
-* Interfacing TCRT IR sensor with STM32
-* Vehicle presence detection
-* Real-time parking slot monitoring
-* STM32 GPIO programming
-* Embedded C development
-* Debugging using ST-Link programmer
-* Serial communication using CH340G USB-to-TTL module
-
-  ## Snaps of the Project
-
-<p align="center">
-  <img src="Parking_Sensor_Setup.jpeg" width="700">
+* Interfacing DHT11 sensor with STM32
+* Reading and processing sensor data
+* Displaying temperature in Celsius and Fahrenheit
+* Displaying humidity percentage
+* UART communication between STM32 and Nextion display
+* Real-time monitoring and GUI implementation
+  
+## Snaps of the Project
+<p align=center>
+  <img src="DHT11_STM32.jpeg">
+  <p align=center>Live Expressions</p>
 </p>
 
-<p align="center">
-  Hardware Setup
+<p align=center>
+  <img src="DHT11_Nextion.jpeg">
+  <p align=center>Nextion Stimulation</p>
 </p>
 
-<p align="center">
-  <img src="Parking_Detection_Output.jpeg" width="700">
-</p>
-
-<p align="center">
-  Vehicle Detection Output
-</p>
-
----
-
-## Live Parking Detection Demonstration
-
-<p align="center">
-  <a href="Parking_System_Demo.mp4">
-    <img src="Parking_Detection_Output.jpeg" width="700">
-  </a>
-</p>
-
-<p align="center">
-  Click the image above to watch the demo video
-</p>
-
+<p align=center>
+<video width="700" controls>
+  <source src="DHT11_Video.mp4" type="video/mp4">
+</video>
+  <p align=center>Live Nextion Stimulation</p>
 </p>
 
 
 
+
+similarly give me for Smart Car Parking Detection System using STM32F103C8T6
