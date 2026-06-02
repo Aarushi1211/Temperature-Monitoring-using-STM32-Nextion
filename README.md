@@ -60,4 +60,3 @@ The DHT11 sensor collects real-time temperature and humidity data and sends it t
 
 
 
-similarly give me for Smart Car Parking Detection System using STM32F103C8T6
